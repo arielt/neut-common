@@ -1,0 +1,5 @@
+#!/bin/bash
+
+jsLint src/content_script.js
+jsLint src/event_page.js
+jsLint src/popup.js

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" style="min-width:300px;">
+  <head>
+    <!-- bootstrap: 3.3.7 -->
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="popup.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h4 class="center">Neut for Chrome</h4>
+      <hr>
+
+      <div class="panel panel-primary">
+        <div class="panel-heading center">Most visited sites</div>
+        <div class="panel-body">
+          <!-- table -->
+          <table class="table table-striped" id="hosts-table">
+            <thead>
+              <tr>
+                <th data-field="host">Site</th>
+                <th data-field="requests" class="center">Number of requests</th>
+                <th data-field="avg-time" class="center">Average time (sec)</th>
+                <th data-field="time" class="center">Last request (sec)</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <h6 class="center text-muted" id="footer">To be overriden</h6>
+
+    </div> <!-- /container -->
+
+    <!-- scripts -->
+    <script src="jquery-3.2.1.slim.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="popup.js"></script>
+
+  </body>
+</html>
