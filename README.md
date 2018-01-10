@@ -1,4 +1,4 @@
-# Notes
+# Neut agent common code
 
 ## Components
 
@@ -16,8 +16,9 @@ https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming
 
 https://developer.mozilla.org/en-US/docs/Web/API/Resource_Timing_API
 
-On load fires when sub-resources are loaded, but obviously doesn't include
+On load event fires when sub-resources are loaded. It obviously doesn't include
 upcoming AJAX and similar calls.
-We don't measure sub-resources.
+
+We don't measure fetch of sub-resources.
 
 ## TODOs
